@@ -11,10 +11,7 @@ const Services = () => {
             This is what I have done so far!
           </h2>
           <p className="lg:max-w-[600] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ea
-            voluptas ipsum modi laboriosam voluptatibus alias labore delectus
-            natus, earum optio inventore nisi quaerat ratione laudantium
-            expedita eveniet possimus. Eos.
+          Although I have taken on fewer jobs in the past, I have devoted my time and energy to academic pursuits to develop a strong foundation of knowledge and skills. I believe that my academic background, combined with my enthusiasm and willingness to learn, make me a strong candidate for any job requirements. I am eager to take on new challenges, expand my knowledge, and contribute to a dynamic team environment.
           </p>
         </div>
 
