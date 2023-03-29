@@ -1,4 +1,5 @@
 import React, {useRef, useEffect} from 'react'
+import NguyenMinhQuan_CV from '../../assets/NguyenMinhQuan_CV.pdf'
 
 export const Header = () => {
 
@@ -59,10 +60,10 @@ export const Header = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <a href='#contact'>
+                    <a href={NguyenMinhQuan_CV}>
                     <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor
                     hover:text-white hover:font-[500] ease-in duration-300'>
-                    <i class="ri-send-plane-line"></i>Let's talk
+                    <i class="ri-download-2-line"></i>Download my CV
                     </button>
                     </a>
                     

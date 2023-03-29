@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-
 const Contact = () => {
+  const [showPopup, setShowPopup] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -18,7 +18,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Successfully send your Email!")
+          setShowPopup(true);
         },
         (error) => {
           console.log(error.text);
@@ -45,7 +45,6 @@ const Contact = () => {
           </div>
 
           <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8">
-            
             <form className="w-full" ref={form} onSubmit={sendEmail}>
               <div className="mb-5">
                 <input
@@ -87,6 +86,23 @@ const Contact = () => {
               >
                 Send Message
               </button>
+
+              {showPopup && (
+                <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center text-center">
+                  <div className="bg-white rounded-[8px] shadow-lg p-4">
+                    <h2 className="text-headingColor font-[700] text-[2.5rem] mb-4">
+                      Success!
+                    </h2>
+                    <p className="text-[17px]">Your email has been sent successfully!</p>
+                    <button
+                      className="bg-smallTextColor text-white rounded-[8px] px-4 py-2 mt-4 items-center justify-center text-center"
+                      onClick={() => setShowPopup(false)}>
+                      Close
+                    </button>
+                  </div>
+                </div>
+              )}
+
             </form>
           </div>
         </div>

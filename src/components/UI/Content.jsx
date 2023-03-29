@@ -1,7 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
-import me from "../../assets/images/me.png";
-import NguyenMinhQuan_CV from '../../assets/NguyenMinhQuan_CV.pdf'
+import test2 from "../../assets/images/test2.png";
 
 export const Content = () => {
   return (
@@ -41,12 +40,7 @@ export const Content = () => {
               >
                 See my Projects
               </a>
-              <a
-                href={NguyenMinhQuan_CV} 
-                className="text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor"
-              >
-                Download my CV
-              </a>
+            
             </div>
 
             <p
@@ -61,22 +55,34 @@ export const Content = () => {
             <div className="flex items-center gap-9 mt-14">
               <span className="text-smallTextColor text-[16px] font-[600]">Find me at:</span>
               <span>
-                <a href='https://github.com/MiQannn' className="text-smallTextColor text-[18px] font-[600]">
+                <a 
+                href='https://github.com/MiQannn' 
+                target="_blank" rel="noopener noreferrer"
+                className="text-smallTextColor text-[18px] font-[600]">
                   <i class="ri-github-line"></i>
                 </a>
               </span>
               <span>
-                <a href='https://www.facebook.com/MiQannn/' className="text-smallTextColor text-[18px] font-[600]">
+                <a 
+                href='https://www.facebook.com/MiQannn/'
+                target="_blank" rel="noopener noreferrer"
+                className="text-smallTextColor text-[18px] font-[600]">
                   <i class="ri-facebook-line"></i>
                 </a>
               </span>
               <span>
-                <a href='https://www.linkedin.com/in/miqan' className="text-smallTextColor text-[18px] font-[600]">
+                <a 
+                href='https://www.linkedin.com/in/miqan' 
+                target="_blank" rel="noopener noreferrer"
+                className="text-smallTextColor text-[18px] font-[600]">
                   <i class="ri-linkedin-line"></i>
                 </a>
               </span>
               <span>
-                <a href='https://www.instagram.com/miquwuan/' className="text-smallTextColor text-[18px] font-[600]">
+                <a 
+                href='https://www.instagram.com/miquwuan/'
+                target="_blank" rel="noopener noreferrer"
+                className="text-smallTextColor text-[18px] font-[600]">
                   <i class="ri-instagram-line"></i>
                 </a>
               </span>
@@ -87,7 +93,7 @@ export const Content = () => {
               <img 
               data-aos="fade-left"
               data-aos-duration="1500"
-              src={me} alt=''/>
+              src={test2} alt=''/>
             </figure>
           </div>
           <div className="md:basisc-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end">
@@ -109,12 +115,12 @@ export const Content = () => {
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">Projects Completed</h4>
             </div>
-            {/* <div className="mb-10">
+            <div className="mb-10">
               <h2 className="text-headingColor font-[700] text-[32px]">
-                <CountUp start={0} end={6} duration={2} suffix="+" />
+                <CountUp start={0} end={100} duration={2} suffix="%" />
               </h2>
-              <h4 className="text-headingColor font-[600] text-[18px]">Year of experience</h4>
-            </div> */}
+              <h4 className="text-headingColor font-[600] text-[18px]">Work Fulltime</h4>
+            </div>
           </div>
         </div>
       </div>

@@ -29,31 +29,40 @@ export const Footer = () => {
               </span>
 
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                <a href="#git" className="text-gray-300 font-[500] text-[18px]">
+                <a 
+                href='https://github.com/MiQannn' 
+                target="_blank" rel="noopener noreferrer" 
+                className="text-gray-300 font-[500] text-[18px]">
                   <i class="ri-github-line"></i>
                 </a>
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="#face"
+                  href='https://www.facebook.com/MiQannn/'
+                  target="_blank" rel="noopener noreferrer"
                   className="text-gray-300 font-[500] text-[18px]"
                 >
                   <i class="ri-facebook-line"></i>
                 </a>
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                <a href="#ins" className="text-gray-300 font-[500] text-[18px]">
-                  <i class="ri-instagram-line"></i>
-                </a>
-              </span>
-              <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="#linkedin"
+                  href='https://www.linkedin.com/in/miqan' 
+                  target="_blank" rel="noopener noreferrer"
                   className="text-gray-300 font-[500] text-[18px]"
                 >
                   <i class="ri-linkedin-line"></i>
                 </a>
               </span>
+              <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
+                <a 
+                href='https://www.instagram.com/miquwuan/'
+                target="_blank" rel="noopener noreferrer" 
+                className="text-gray-300 font-[500] text-[18px]">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </span>
+              
             </div>
           </div>
         </div>

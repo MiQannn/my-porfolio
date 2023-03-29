@@ -1,18 +1,19 @@
 import claimpage from '../images/claimpage.png';
 import swappage from '../images/swappage.png';
+import me from '../images/me.png'
 import mobile from '../images/mobile.png';
 import bank from '../images/bank.png'
 
 const portfolios = [
   {
     id: "01",
-    imgUrl: claimpage,
+    imgUrl: me,
     category: "Web Design",
-    title: "Token Claim Website",
+    title: "Portfolio Website",
     description:
-      "This website uses for rewarding students, after the event they joined. All they have to do is copy and paste their wallet addresses.",
-    technologies: ["ReactJS", "HTML/CSS", "Node.js", "JavaScript"],
-    siteUrl: "https://iu-swap.vercel.app/",
+      "The purpose of creating a portfolio website is to showcase my skills, experience, and accomplishments in a professional manner. It can also help me provide myself with a centralized platform to share my work and achievements, making it easier for others to find and contact me.",
+    technologies: ["ReactJS", "Tailwind CSS", "emailjs", "RemixIcon", "aos"],
+    siteUrl: "https://miqan-portfolio.netlify.app",
   },
   {
     id: "02",
@@ -26,6 +27,16 @@ const portfolios = [
   },
   {
     id: "03",
+    imgUrl: claimpage,
+    category: "Web Design",
+    title: "Token Claim Website",
+    description:
+      "This website uses for rewarding students, after the event they joined. All they have to do is copy and paste their wallet addresses.",
+    technologies: ["ReactJS", "HTML/CSS", "Node.js", "JavaScript"],
+    siteUrl: "https://iu-swap.vercel.app/",
+  },
+  {
+    id: "04",
     imgUrl: mobile,
     category: "Ux",
     title: "AR Shopping App",
@@ -35,12 +46,12 @@ const portfolios = [
     siteUrl: "https://github.com/MiQannn/RealOne-App",
   },
   {
-    id: "04",
+    id: "05",
     imgUrl: bank,
     category: "Web Design",
     title: "Bank Web Application",
     description: 
-    'MDQT Bank Web Application has always been a medium for customer and employee of MDQT Bank to exchange and perform management. The transaction has been manually operated throughout the year with many difficulties. Along with the ever-growing trend of development of technology, mobile, laptop, computer are more and more powerful and convenient to aid users in many everyday tasks. One of the many web application that we can put into good use is that of Banking Web Application. MDQT Banking WebApp idea was created with the goals of electronics devices like mobile, laptop,… with many optimized real-time feature.',
+    'MDQT Bank Web Application has always been a medium for customer and employee of MDQT Bank to exchange and perform management. The transaction has been manually operated throughout the year with many difficulties. Along with the ever-growing trend of development of technology, mobile, laptop, computer are more and more powerful and convenient to aid users in many everyday tasks.',
     technologies: ["React", "HTML/CSS", "Node.js", "MySQL"],
     siteUrl: "#",
   },
