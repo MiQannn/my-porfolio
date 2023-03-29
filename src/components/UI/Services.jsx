@@ -46,7 +46,7 @@ const Services = () => {
                           schedule testing activities.
                           <br />- Writes daily reports, test cases and checks
                           requirements to ensure products are reliable,
-                          functional and meet the expectations of endusers.
+                          functional and meet the expectations of end users.
                         </p>
                       </div>
                     </div>
