@@ -39,14 +39,11 @@ const Services = () => {
                           (Jul 2022 - Sep 2022)
                         </p>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          - Creates test scripts and performs manual tests to
-                          identify defects or issues in the software (website
-                          and mobile app). <br />
-                          - Collabs with project managers to prioritize and
-                          schedule testing activities.
-                          <br />- Writes daily reports, test cases and checks
-                          requirements to ensure products are reliable,
-                          functional and meet the expectations of end users.
+                        - Collects, analyzes large volumes of raw data from
+                          various sources. <br />
+                          - Collabs with other teams to understand their data
+                          needs and make informed decisions. <br />
+                          - Maintains data quality standards and ensures data accuracy and completeness.
                         </p>
                       </div>
                     </div>
@@ -79,11 +76,15 @@ const Services = () => {
                           (Jun 2021 - Aug 2021)
                         </p>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          - Collects, analyzes large volumes of raw data from
-                          various sources. <br />
-                          - Collabs with other teams to understand their data
-                          needs and make informed decisions. <br />
-                          - Maintains data quality standards and ensures data accuracy and completeness.
+                          
+                          - Creates test scripts and performs manual tests to
+                          identify defects or issues in the software (website
+                          and mobile app). <br />
+                          - Collabs with project managers to prioritize and
+                          schedule testing activities.
+                          <br />- Writes daily reports, test cases and checks
+                          requirements to ensure products are reliable,
+                          functional and meet the expectations of end users.
                         </p>
                       </div>
                     </div>

@@ -39,8 +39,11 @@ import portfolios from '../../assets/data/portfolioData'
                 }
             </div>
 
-        <a href={portfolio.siteUrl}>
-            <button className='bg-primaryColor text-white py-2 px-4 my-8 rounded-[8px] font-[500] hover:bg-headingColor ease-in duration-300'>Live Site</button>
+        <a 
+        target="_blank" rel="noopener noreferrer"
+        href={portfolio.siteUrl}>
+            <button 
+            className='bg-primaryColor text-white py-2 px-4 my-8 rounded-[8px] font-[500] hover:bg-headingColor ease-in duration-300'>Go to Project</button>
         </a>
 
             </div>
