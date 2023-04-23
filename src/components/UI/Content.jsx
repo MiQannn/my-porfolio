@@ -1,6 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
-import test2 from "../../assets/images/test2.png";
+import myself from "../../assets/images/myself.png";
 
 export const Content = () => {
   return (
@@ -49,7 +49,7 @@ export const Content = () => {
               className="flex gap-2 text-headingColor mt-14 font-[500] text-[16px] leading-7 sm:pl-14 sm:pr-10"
             >
               <span><i class="ri-apps-2-line"></i></span>
-              I am currently seeking an entry-level work in a setting that offers a better challenge, increased rewards for myself, and the chance to develop my personal abilities. I have at least one year of expertise with ReactJS, HTML/CSS, and JavaScript. I'm also good at managing time, learning new skills and easily communicating in English with people. 
+              Highly motivated and skilled professional with a passion for web development, seeking an entry-level position that offers a challenging and rewarding environment. With expertise in ReactJS, HTML/CSS, and JavaScript, I am equipped to contribute to dynamic projects and leverage my technical abilities to drive innovative solutions. Known for my strong time management skills, ability to quickly learn new technologies, and effective English communication, I am confident in my capacity to excel and grow within a team-oriented setting.
             </p>
 
             <div className="flex items-center gap-9 mt-14">
@@ -93,7 +93,7 @@ export const Content = () => {
               <img 
               data-aos="fade-left"
               data-aos-duration="1500"
-              src={test2} alt=''/>
+              src={myself} alt=''/>
             </figure>
           </div>
           <div className="md:basisc-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end">
