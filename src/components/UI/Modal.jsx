@@ -50,7 +50,7 @@ import portfolios from '../../assets/data/portfolioData'
 
     <button 
     onClick={() => setShowModal(false)}
-    className='w-[1.8rem] h-[1.8rem] bg-[white] absolute top-[1.7rem] right-[1.7rem] text-[25px] flex items-center justify-center rounded-[3px] leading-0 cursor-pointer'>&times;</button>
+    className='w-[1.7rem] h-[1.7rem] bg-[white] absolute top-[1.7rem] right-[1.7rem] text-[40px] flex items-center justify-center rounded-[4px] leading-0 cursor-pointer'>&times;</button>
     
         </div>        
     </div>

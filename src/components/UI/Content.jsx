@@ -111,7 +111,7 @@ export const Content = () => {
             </div>
             <div className="mb-10">
               <h2 className="text-headingColor font-[700] text-[32px]">
-                <CountUp start={0} end={4} duration={2} />
+                <CountUp start={0} end={5} duration={2} />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">Projects Completed</h4>
             </div>

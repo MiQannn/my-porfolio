@@ -13,7 +13,7 @@ const portfolios = [
     description:
       "The purpose of creating a portfolio website is to showcase my skills, experience, and accomplishments in a professional manner. It can also help me provide myself with a centralized platform to share my work and achievements, making it easier for others to find and contact me.",
     technologies: ["ReactJS", "Tailwind CSS", "emailjs", "RemixIcon", "aos"],
-    siteUrl: "https://miqan-portfolio.netlify.app",
+    siteUrl: "https://github.com/MiQannn/my-porfolio",
   },
   {
     id: "02",
